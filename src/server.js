@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     usuarios.push({nome,idade})
     console.log(usuarios)
 
-    res.status(201).send("Usuario Criado")
+    res.status(201).send("Usuario Criadoa")
   })
 
   
